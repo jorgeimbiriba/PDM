@@ -1,15 +1,13 @@
 package ExeciciosComplementares
 
-import java.awt.List
-
 class Televisores(val marca: String, val modelo: String,val tipo: String, val preco: Double)
 
-class Empregado(val nome: String, val vendas: List <Televisores>, val salario: Double, val inss: Double, val salarioMinino: Double = 1516.60){
+class Empregado(val nome: String, val vendas: List<Televisores>, val inss: Double, val salarioMinino: Double = 1516.60){
 
     fun calcularComissao() : Double{
         val vendasPorTipo = vendas.groupBy {it.tipo}
 
-        val comissaoTotal = 0.0
+        var comissaoTotal = 0.0
 
         val vendasCor = vendasPorTipo["A cores"] ?: emptyList()
         if (vendasCor.isNotEmpty()){
@@ -34,3 +32,28 @@ class Empregado(val nome: String, val vendas: List <Televisores>, val salario: D
     }
 }
 
+fun main(){
+
+    val vendasDoMes = listOf(
+    Televisores("Samsung", "QLED", "A cores",3200.0),
+    Televisores("LG", "L-OLED", "A cores", 4500.0),
+    Televisores("Samsung", "S-LED ", "A cores", 2500.0),
+    Televisores("LG", "L-OLED ", "A cores", 4500.0),
+    Televisores("Samsung", "S-LED ", "A cores", 2500.0),
+    Televisores("LG", "L-OLED ", "A cores", 4500.0),
+    Televisores("Samsung", "S-LED", "A cores", 2500.0),
+    Televisores("LG", "L-OLED ", "A cores", 4500.0), // 10 televisores a cores
+    Televisores("Philco", "P-PB", "Preto e branco", 800.0),
+    Televisores("Philco", "P-PB", "Preto e branco", 800.0) // 2 televisores preto e branco
+    )
+
+
+    val empregado = Empregado("Jorge",vendas = vendasDoMes, inss = 100.0)
+
+    val comissao = empregado.calcularComissao()
+    val salarioFinal = empregado.salarioTotal()
+
+    println("Nome: ${empregado.nome}")
+    println("Comissão: R$ %.2f".format(comissao))
+    println("Salário Final: R$ %.2f".format(salarioFinal))
+}
