@@ -3,8 +3,9 @@ fun main(){
     var idade = 20
 
     println("Meu nome é $nome e tenho $idade anos")
-    idade +=1
 
+    println("-----")
+    idade +=1
     println("Ano que vem terei $idade anos")
 
     println("Digite um número:")

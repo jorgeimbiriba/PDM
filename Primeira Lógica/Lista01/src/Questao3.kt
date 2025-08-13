@@ -14,6 +14,7 @@ fun main(){
     println("$palavra")
     println("Nº de caracteres: $resultado")
 
+    println("-----")
     val endereco1 = descreveEndereco("Barão do Rio Preto", 123, "Manaus")
     println(endereco1)
 }

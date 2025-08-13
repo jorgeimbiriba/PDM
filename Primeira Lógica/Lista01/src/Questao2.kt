@@ -14,6 +14,7 @@ fun main(){
     val reverse = inverte(pInput ?: "")
     println("$reverse")*/
 
+    println("-----")
     val minhaPalavra = "Kotlin"
     val resultPalavra = inverte(minhaPalavra)
     println("$resultPalavra")
