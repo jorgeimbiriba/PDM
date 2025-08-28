@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c98c6827-48c2-4d3d-8800-d1de69c23e08" name="Changes" comment="" />
+    <list default="true" id="c98c6827-48c2-4d3d-8800-d1de69c23e08" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExemplosDaSala/ArquivoKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExemplosDaSala/Arquivo_BinárioKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExemplosDaSala/Escrita_em_Arq_BinarioKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExemplosDaSala/IO_de_Arquivos_bináriosKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExemplosEmSala/Artigo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExemplosEmSala/GerenciadorDeArtigos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExemplosEmSala/Tags_únicasKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExerciciosArquivos/Questao01Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExerciciosPropostos/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExerciciosPropostos/ControleDeTarefas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExerciciosPropostos/ControlePresenca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExerciciosPropostos/Controle_de_PresençasKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExerciciosPropostos/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExerciciosPropostos/SistemaInventario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExerciciosPropostos/Tarefa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/ExerciciosPropostos/TarefasKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estrutura de Dados/META-INF/Estrutura de Dados.kotlin_module" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,31 +69,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.IO_de_Arquivos_bináriosKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.Questao01Kt.executor": "Run",
-    "Kotlin.Tags_únicasKt.executor": "Run",
-    "Kotlin.TarefasKt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jorge/OneDrive/Documentos/Ifam/4º Período/PDM/Estrutura de Dados",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/jorge/OneDrive/Documentos/Ifam/4º Período/Teste - PDM/Teste/src/Main.kt",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.IO_de_Arquivos_bináriosKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Questao01Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Tags_únicasKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TarefasKt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jorge/OneDrive/Documentos/Ifam/4º Período/PDM/Estrutura de Dados&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jorge/OneDrive/Documentos/Ifam/4º Período/Teste - PDM/Teste/src/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
       <recent name="ExerciciosPropostos" />
@@ -205,7 +236,11 @@
       <workItem from="1756266491742" duration="144000" />
       <workItem from="1756266678305" duration="17000" />
       <workItem from="1756339276965" duration="1068000" />
-      <workItem from="1756340372613" duration="471000" />
+      <workItem from="1756340372613" duration="3541000" />
+      <workItem from="1756343958882" duration="430000" />
+      <workItem from="1756344553751" duration="366000" />
+      <workItem from="1756345341261" duration="98000" />
+      <workItem from="1756345466991" duration="136000" />
     </task>
     <servers />
   </component>
