@@ -5,11 +5,12 @@ import java.io.IOException
 
 fun salvarTarefasEmArquivo(tarefas: List<String>){
     val arquivo = File("tarefas.txt")
-
+    //Tratamento com try catch
     try {
-        val textoParaSalvar = tarefas.joinToString { "\n" }
+        val textoParaSalvar = tarefas.joinToString(separator ="\n" )
 
         arquivo.writeText(textoParaSalvar)
+        println("Tarefas foram salvas com sucesso!")
     }catch (e: IOException){
         println("Erro ao salvar o arquivo: ${e.message}")
     }
@@ -30,7 +31,7 @@ fun exibirTarefas(){
             println("O arquivo está vazio.")
         } else {
             tarefas.forEachIndexed { index, tarefa ->
-                // O forEachIndexed fornece o índice e o valor
+                // O forEachIndexed fornece o índice e o valor - útil dms
                 println("${index + 1}. $tarefa")
             }
         }
@@ -52,7 +53,7 @@ fun adicionarTarefaNoArquivo(novaTarefa: String){
 
 fun main(){
     val tarefas = listOf("Estudar Kotlin", "Fazer a Lista")
-    File("tarefas.txt").writeText(tarefas.joinToString { "\n" })
+    File("tarefas.txt").writeText(tarefas.joinToString (separator = "\n"))
 
     exibirTarefas()
 
