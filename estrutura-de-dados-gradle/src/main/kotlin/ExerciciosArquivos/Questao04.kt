@@ -2,20 +2,20 @@ package ExerciciosArquivos
 
 import java.io.File
 
-fun verificarParaCriarDiretorio(caminho: String): File{
-    val diretorio = File(caminho)
+fun verificarParaCriarDiretorio(): File{
+    val diretorioBackup = File("backup")
 
-    if(!diretorio.exists()){
-        val criado = diretorio.mkdirs()
-        if (criado) {
-            println("Diretório criado com sucesso: ${diretorio.absolutePath}")
-        } else {
-            println("Falha ao criar o diretório: ${diretorio.absolutePath}")
-        }
+    val diretorioFotos = File(diretorioBackup,"fotos")
+    val diretorioDocumentos = File(diretorioBackup,"documentos")
+
+    if(diretorioFotos.mkdirs() && diretorioDocumentos.mkdirs()){
+        println("Estrutura de diretórios criada com sucesso:")
+        println("  -> ${diretorioFotos.absolutePath}")
+        println("  -> ${diretorioDocumentos.absolutePath}")
     } else {
-        println("O diretório já existe: ${diretorio.absolutePath}")
+        println("A estrutura de diretórios já existe ou ocorreu erro")
     }
-    return diretorio
+    return diretorioBackup
 }
 
 fun listarSubduretorios(diretorio: File){
@@ -58,12 +58,17 @@ fun excluirDiretorios(diretorio: File){
 }
 fun main(){
     //1. Criação direta do caminho de diretórios
-    val estruturaDeDiretorios = verificarParaCriarDiretorio("backup/fotos/documentos")
+    val estruturaDeDiretorios = verificarParaCriarDiretorio()
     listarSubduretorios(estruturaDeDiretorios)
 
-    //2. Adiciona o arquivo no diretório
-    val arquivoTxt = criarArquivoParaDiretorio(estruturaDeDiretorios,"notas.txt")
-    
+    //2. Adição do objeto File do diretório documentos
+    val diretorioDocumentos = File(estruturaDeDiretorios, "documentos")
+
+    // Cria o arquivo no diretório 'documentos' e remove a atribuição desnecessária
+    criarArquivoParaDiretorio(diretorioDocumentos, "notas.txt")
+
+    //3. Exluindo diretórios - ao descomentar funciona, eu garanto
+    //excluirDiretorios(estruturaDeDiretorios)
 }
 
 
