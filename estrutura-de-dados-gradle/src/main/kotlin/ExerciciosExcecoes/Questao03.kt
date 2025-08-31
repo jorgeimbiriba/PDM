@@ -20,7 +20,6 @@ fun validarSenha(senha: String): String? {
         return "Senha Válida!"
 
     } catch (e: SenhaInvalidaException) {
-        // Se uma exceção for capturada, retorna a mensagem de erro
         return e.message
     }
 }
@@ -31,7 +30,7 @@ fun main(){
 
     val resultado1 = validarSenha(minhaSenha)
     println("Resultado para '$minhaSenha': $resultado1")
-    
+
     println()
 
     val resultado2 = validarSenha(minhaOutraSenha)
