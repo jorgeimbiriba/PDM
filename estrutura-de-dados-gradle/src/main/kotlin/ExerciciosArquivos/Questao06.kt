@@ -34,7 +34,7 @@ fun main(){
     val pessoa2 = Pessoa("Carlos", "carlos@email.com", 30)
     criarArquivoCSV(arquivoNome, pessoa2)
 
-    
+
     println("\nConteúdo do arquivo '$arquivoNome':")
     File(arquivoNome).readLines().forEach { println(it) }
 }
