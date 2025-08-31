@@ -5,8 +5,8 @@ import java.lang.IllegalArgumentException
 fun calcularMedia(notas: List<Int>){
     if (notas.isEmpty()) {
         println("Não há notas para calcular a média")
-
     }
+
     val soma = notas.sum()
     val quantidadeDeNotas = notas.size
 
