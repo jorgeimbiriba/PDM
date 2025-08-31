@@ -60,5 +60,6 @@ fun main(){
     adicionarTarefaNoArquivo("Adicionar ao Github")
 
     exibirTarefas()
+
     salvarTarefasEmArquivo(tarefas)
 }
