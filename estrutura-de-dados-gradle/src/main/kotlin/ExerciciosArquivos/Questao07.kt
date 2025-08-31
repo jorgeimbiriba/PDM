@@ -20,6 +20,10 @@ fun lerArquivoDeTexto (nomeArquivo: String): String?{
 }
 
 fun processarTextoDoArquivo(texto: String?): List<String>{
+    if (texto == null) {
+        return emptyList()
+    }
+
     // 1. Converte para minúsculas
     val textoMinusculo = texto.lowercase()
 
